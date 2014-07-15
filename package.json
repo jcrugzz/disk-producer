@@ -1,0 +1,25 @@
+{
+  "name": "disk-producer",
+  "version": "0.0.0",
+  "description": "simple godot producer and readable stream that emits an event with the disk % on each interval",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "disk",
+    "godot",
+    "monitoring",
+    "producer",
+    "readable",
+    "stream"
+  ],
+  "author": "Jarrett Cruger <jcrugzz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "producer": "~0.1.1"
+  },
+  "devDependencies": {
+    "tape": "~2.13.3"
+  }
+}
