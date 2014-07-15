@@ -8,7 +8,9 @@ a [`godot`][godot] event object on each ttl.
 ```js
 var Disk = require('disk-producer');
 
-var disk = new Disk({ ttl: 5000 });
+// You can pass in a percent option of where it will change the state of the
+// event to 'error' from 'ok'
+var disk = new Disk({ ttl: 5000, percent: 90 });
 
 disk.on('data', function (data) {
   console.dir(data);
