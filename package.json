@@ -1,6 +1,6 @@
 {
   "name": "disk-producer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "simple godot producer and readable stream that emits an event with the disk % on each interval",
   "main": "index.js",
   "scripts": {
