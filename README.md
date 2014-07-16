@@ -1,5 +1,8 @@
 # disk-producer
 
+[![build
+status](https://secure.travis-ci.org/jcrugzz/disk-producer.png)](http://travis-ci.org/jcrugzz/disk-producer)
+
 A readable stream based off of [`producer`][producer] that emits
 a [`godot`][godot] event object on each ttl.
 
